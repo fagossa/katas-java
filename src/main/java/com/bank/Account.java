@@ -16,11 +16,11 @@ public class Account {
     }
 
     public void deposit(Amount value, Date date) {
-        recordTransaction(value, date);
+        // TODO: record transaction
     }
 
     public void withdrawal(Amount value, Date date) {
-        recordTransaction(value.negative(), date);
+        // TODO: record transaction with negative value
     }
 
     public void printStatement(PrintStream printer) {

@@ -23,7 +23,8 @@ public class Transaction {
     }
 
     public Amount balanceAfterTransaction(Amount currentBalance) {
-        return currentBalance.plus(value);
+        // TODO: add the new value to the current balance
+        return currentBalance;
     }
 
     public void printTo(PrintStream printer, Amount currentBalance) {

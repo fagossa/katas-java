@@ -26,11 +26,13 @@ public class Amount {
     }
 
     public Amount plus(Amount otherAmount) {
-        return amountOf(this.value + otherAmount.value);
+        // TODO: value + value of other amount
+        return null;
     }
 
     public boolean isGreaterThan(Amount otherAmount) {
-        return this.value > otherAmount.value;
+        // TODO: compare this value and other amount
+        return false;
     }
 
     public Amount absoluteValue() {
